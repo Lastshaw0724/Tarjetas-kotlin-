@@ -49,26 +49,6 @@ println(nombres[1])  // Resultado: Lucía
 // Obtener el número total de elementos
 println(nombres.size)  // Resultado: 3
 
-
-
-
-**Ejemplo práctico**
-
-Supongamos que estás desarrollando una app escolar que maneja los nombres de estudiantes. Este código muestra cómo usar un array para ese propósito:
-
-kotlin
-fun main() {
-    val estudiantes = arrayOf("Carlos", "María", "Andrés")
-    
-    println("Primer estudiante: ${estudiantes[0]}")
-    
-    estudiantes[1] = "Marta"
-    println("Nombre actualizado: ${estudiantes[1]}")
-    
-    println("Total de estudiantes: ${estudiantes.size}")
-}
-
-
 **Este código imprime:**
 
 
