@@ -1,31 +1,26 @@
-OPERADORES EN KOTLIN
+**OPERADORES EN KOTLIN**
 
-En Kotlin, los operadores matemáticos, de asignación, de comparación y lógicos son fundamentales para realizar operaciones básicas y construir condiciones en nuestros programas. A continuación te explico para qué se utiliza cada uno:
+ **Operadores Matemáticos**
 
- OPERADORES MATEMÁTICOS
- 
-Estos operadores permiten realizar operaciones aritméticas con números.
+En Kotlin, los operadores matemáticos permiten realizar operaciones aritméticas con números. A continuación se presentan los operadores más comunes:
 
--Suma (+): Se usa para sumar dos valores numéricos.
+* **Suma (+)**: Se usa para sumar dos valores numéricos.
+* **Resta (-)**: Se usa para restar un valor de otro.
+* **Multiplicación (\*)**: Multiplica dos valores.
+* **División (/)**: Divide un valor por otro.
+* **Módulo (%)**: Retorna el residuo de una división. Es útil para saber si un número es par, o para ciclos.
 
--Resta (-): Se usa para restar un valor de otro.
+ **Operadores de Asignación**
 
--Multiplicación (*): Multiplica dos valores.
+Estos operadores modifican y asignan un valor a una variable de forma más compacta:
 
--División (/): Divide un valor por otro.
+* **+=**: Suma y asigna el resultado.
+* **-=**: Resta y asigna.
+* **\*=**: Multiplica y asigna.
+* **/=**: Divide y asigna.
+* **% =**: Calcula el módulo y asigna.
 
--Módulo (%): Retorna el residuo de una división. Es útil para saber si un número es par, o para ciclo
+**Conclusión**
 
- OPERADORES DE ASIGNACIÓN
- 
-Estos operadores modifican y asignan un valor a una variable de forma más compacta.
+Los operadores en Kotlin permiten realizar operaciones matemáticas, asignar valores a variables de manera compacta y facilitar la construcción de condiciones dentro del programa. Son herramientas fundamentales para trabajar con números y manipular el flujo de un programa de manera eficiente.
 
-- +=: Suma y asigna el resultado.
-
-- -=: Resta y asigna.
-
-- *=: Multiplica y asigna.
-
-- /=: Divide y asigna.
-
-- %=: Calcula el módulo y asigna.
