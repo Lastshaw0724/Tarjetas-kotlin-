@@ -1,7 +1,4 @@
-¡Claro! Aquí tienes el texto con solo el ejemplo práctico y el contenido general sin la explicación ni la salida esperada:
-
-
- **FUNCIONES DE STRINGS Y PRINTING EN KOTLIN**
+**FUNCIONES DE STRINGS Y PRINTING EN KOTLIN**
 
  **Cadenas en Kotlin (String)**
 
