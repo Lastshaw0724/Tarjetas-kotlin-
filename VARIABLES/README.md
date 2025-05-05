@@ -20,8 +20,13 @@ En Kotlin, las variables se declaran utilizando:
 
 Tipos de variables 
 Int: se usa para números enteros.
+
 Double: Se usa para números decimales mas grandes.
+
 Float: Se usa para números decimales mas cortos o menos presición.
+
 Boolean: Se usa para valores logicos como los son True y  False.
+
 Char: Se usa para un solo caracter.
+
 String: Se usa para cadenas de textos.
