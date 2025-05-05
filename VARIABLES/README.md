@@ -1,32 +1,30 @@
-1. ¿Por qué y para qué se utilizan?
-El manejo de variables en Kotlin es muy importante porque es un lenguaje fuertemente tipado, lo que significa que cada variable debe tener un tipo de dato específico.
-Esto permite que el programa sea más seguro, evitando errores de tipos de datos en tiempo de ejecución y facilitando que el compilador detecte errores temprano.
+ **MANEJO DE VARIABLES EN KOTLIN**
 
-Las variables se utilizan para almacenar datos que el programa necesita manipular, procesar o recordar mientras se ejecuta. Son fundamentales para:
+ **¿Por qué y para qué se utilizan?**
 
--Guardar información de forma temporal o permanente.
+El manejo de variables en Kotlin es muy importante porque es un lenguaje **fuertemente tipado**, lo que significa que cada variable debe tener un tipo de dato específico. Esto permite que el programa sea más seguro, evitando errores de tipos de datos en tiempo de ejecución y facilitando que el compilador detecte errores desde etapas tempranas.
 
--Modificar valores cuando sea necesario.
+Las variables se utilizan para **almacenar datos** que el programa necesita manipular, procesar o recordar mientras se ejecuta. Son esenciales para:
 
--Realizar operaciones matemáticas, lógicas o de control.
+* Guardar información de forma temporal o permanente.
+* Modificar valores cuando sea necesario.
+* Realizar operaciones matemáticas, lógicas o de control.
+* Organizar mejor el flujo del programa mediante el manejo de datos de manera estructurada.
 
--Organizar mejor el flujo del programa mediante el manejo de datos de manera estructurada.
+**Declaración de variables en Kotlin**
 
-En Kotlin, las variables se declaran utilizando:
+* `val`: Para variables **inmutables** (constantes). No pueden cambiar su valor después de ser asignadas.
+* `var`: Para variables **mutables**. Su valor puede cambiar durante la ejecución del programa.
 
--val para variables inmutables (constantes que no cambian su valor una vez asignado).
+ **Tipos de variables comunes**
 
--var para variables mutables (pueden cambiar su valor durante la ejecución).
+* **Int**: Para números enteros.
+* **Double**: Para números decimales con mayor precisión.
+* **Float**: Para números decimales con menor precisión.
+* **Boolean**: Para valores lógicos (`true` o `false`).
+* **Char**: Para representar un solo carácter.
+* **String**: Para cadenas de texto.
 
-Tipos de variables 
-Int: se usa para números enteros.
+ **Conclusión**
 
-Double: Se usa para números decimales mas grandes.
-
-Float: Se usa para números decimales mas cortos o menos presición.
-
-Boolean: Se usa para valores logicos como los son True y  False.
-
-Char: Se usa para un solo caracter.
-
-String: Se usa para cadenas de textos.
+Las variables permiten trabajar con datos de forma estructurada y controlada en Kotlin. Al definir correctamente su tipo y saber cuándo utilizar `val` o `var`, se logra un código más claro, seguro y fácil de mantener.
