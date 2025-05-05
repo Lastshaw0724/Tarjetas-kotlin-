@@ -19,3 +19,12 @@ En Kotlin, las variables se declaran utilizando:
 -var para variables mutables (pueden cambiar su valor durante la ejecución).
 
 Tipos de variables 
+Int: se usa para números enteros.
+Double: Se usa para números decimales mas grandes.
+Float: Se usa para números decimales mas cortos o menos presición.
+Boolean: Se usa para valores logicos como los son True y  False.
+Char: Se usa para un solo caracter.
+String: Se usa para cadenas de textos.
+
+LINKS
+https://pl.kotl.in/y202iSCi5
