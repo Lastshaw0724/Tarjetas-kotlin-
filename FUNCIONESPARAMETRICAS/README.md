@@ -1,3 +1,5 @@
+1. Describa el por qué y para qué se utiliza.
+
 ¿Por qué y para qué se utilizan las funciones paramétricas con colecciones en Kotlin?
 
 Las funciones paramétricas en Kotlin son aquellas funciones que aceptan parámetros para realizar alguna tarea. Al combinar funciones paramétricas con colecciones (como listas, conjuntos y mapas), se obtiene un poder de manipulación y transformación de datos mucho mayor, permitiendo a los programadores crear soluciones flexibles y reutilizables.
@@ -22,4 +24,77 @@ Realizar cálculos: Como sumar o multiplicar todos los elementos de una colecci�
 
 Buscar elementos: Encontrar un elemento específico dentro de una colección, etc.
 
+2. Genere un ejemplo internamente en el recuadro.
+
 [LINK DE CÓDIGO](https://pl.kotl.in/0v56nF-4q)
+
+EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO
+
+Genere el link del audio y el link de GitHub.
+
+[🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/tu-usuario/tu-repo)
+
+Escribe una nota del cómo funciona la estructura
+
+// Clase que demuestra funciones paramétricas en Kotlin
+class FuncionesParametricasDemo {
+
+    // Función con un parámetro simple
+    fun multiplicarPorDos(numero: Int): Int {
+        return numero * 2
+    }
+
+    // Función con múltiples parámetros
+    fun concatenarStrings(str1: String, str2: String): String {
+        return str1 + " " + str2
+    }
+
+    // Función con parámetros de diferentes tipos
+    fun mostrarInfo(nombre: String, edad: Int): String {
+        return "Nombre: $nombre, Edad: $edad años"
+    }
+
+    // Función con tipo genérico, que acepta cualquier tipo de parámetro
+    fun <T> imprimirValor(valor: T): String {
+        return "El valor es: $valor"
+    }
+
+    // Función que recibe un parámetro por referencia (tipo mutable)
+    fun modificarLista(lista: MutableList<String>) {
+        lista.add("Nuevo Elemento")
+    }
+
+    // Función que retorna un valor calculado según los parámetros
+    fun promedio(a: Double, b: Double): Double {
+        return (a + b) / 2
+    }
+
+    // Función que muestra el uso de las funciones anteriores
+    fun ejecutarDemostraciones() {
+        // Uso de funciones simples con parámetros
+        println("🔹 Multiplicar 4 por 2: ${multiplicarPorDos(4)}")
+        println("🔹 Concatenar 'Hola' y 'Mundo': ${concatenarStrings("Hola", "Mundo")}")
+        println("🔹 Mostrar Info: ${mostrarInfo("Carlos", 25)}")
+        
+        // Uso de función con tipo genérico
+        println("🔹 Imprimir valor: ${imprimirValor(123)}")
+        println("🔹 Imprimir valor de tipo String: ${imprimirValor("Texto")}")
+
+        // Uso de función que modifica un parámetro (referencia)
+        val lista = mutableListOf("Elemento1", "Elemento2")
+        println("🔹 Lista original: $lista")
+        modificarLista(lista)
+        println("🔹 Lista después de modificarla: $lista")
+
+        // Uso de función con retorno de valor calculado
+        println("🔹 Promedio de 5.5 y 10.5: ${promedio(5.5, 10.5)}")
+    }
+}
+
+// Función main que ejecuta todas las funciones paramétricas
+fun main() {
+    val demo = FuncionesParametricasDemo()
+
+    println("=== ⚙️ DEMOSTRACIÓN DE FUNCIONES PARAMÉTRICAS EN KOTLIN ===")
+    demo.ejecutarDemostraciones()
+}
