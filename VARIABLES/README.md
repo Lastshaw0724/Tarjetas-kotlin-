@@ -36,5 +36,5 @@ EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO 
 
 Genere el link del audio y el link de GitHub.
 
-[🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/tu-usuario/tu-repo)
+[🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/Lastshaw0724/Tarjetas-kotlin-/blob/main/VARIABLES/vartyp.png)
 
