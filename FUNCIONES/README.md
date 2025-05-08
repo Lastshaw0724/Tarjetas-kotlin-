@@ -1,3 +1,5 @@
+1. Describa el por qué y para qué se utiliza.
+
 ¿Por qué y para qué se utilizan las funciones en Kotlin?
 
 En Kotlin, las funciones son bloques de código reutilizables que se pueden invocar para realizar tareas específicas. Las funciones se utilizan por varias razones importantes:
@@ -34,4 +36,68 @@ Reducir la duplicación de código al permitir reutilización.
 
 Facilitar la depuración y la prueba de unidades de código.
 
+2. Genere un ejemplo internamente en el recuadro.
+
 [LINK DE CÓDIGO](https://pl.kotl.in/-M_dJUoZ7)
+
+
+EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO
+
+Genere el link del audio y el link de GitHub.
+
+[🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/tu-usuario/tu-repo)
+
+Escribe una nota del cómo funciona la estructura
+
+// Clase que demuestra diferentes tipos de funciones en Kotlin
+class FuncionesDemo {
+
+    // Función simple que no recibe parámetros ni retorna valor
+    fun saludar() {
+        println("🔹 Hola, bienvenido a Kotlin!")
+    }
+
+    // Función con parámetros
+    fun mostrarNombre(nombre: String) {
+        println("🔹 Tu nombre es: $nombre")
+    }
+
+    // Función que retorna un valor
+    fun sumar(a: Int, b: Int): Int {
+        return a + b
+    }
+
+    // Función con parámetros por defecto
+    fun saludarConEdad(nombre: String = "Invitado", edad: Int = 0) {
+        println("🔹 Hola, $nombre. Tienes $edad años.")
+    }
+
+    // Función de una sola línea (inline)
+    fun cuadrado(x: Int): Int = x * x
+
+    // Función privada solo accesible dentro de esta clase
+    private fun funcionPrivada() {
+        println("🔹 Esta función es privada y no puede ser llamada desde fuera.")
+    }
+
+    // Método que demuestra el uso de las funciones anteriores
+    fun ejecutarDemostraciones() {
+        saludar()
+        mostrarNombre("Laura")
+        println("🔹 Suma de 5 + 3 = ${sumar(5, 3)}")
+        saludarConEdad("Carlos", 20)
+        saludarConEdad() // Usa valores por defecto
+        println("🔹 El cuadrado de 6 es: ${cuadrado(6)}")
+
+        // Llamada a función privada desde dentro de la clase
+        funcionPrivada()
+    }
+}
+
+// Función main que ejecuta la demo de funciones
+fun main() {
+    val demo = FuncionesDemo()
+
+    println("=== 🧩 DEMOSTRACIÓN DE FUNCIONES EN KOTLIN ===")
+    demo.ejecutarDemostraciones()
+}
