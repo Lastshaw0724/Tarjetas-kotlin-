@@ -21,6 +21,7 @@ Genere el link del audio y el link de GitHub.
 Escribe una nota del cómo funciona la estructura
 
 //fun main {
+
 class Persona(
     var nombre: String,
     var edad: Int,
