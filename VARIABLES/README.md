@@ -1,3 +1,5 @@
+1. Describa el por qué y para qué se utiliza.
+
  **MANEJO DE VARIABLES EN KOTLIN**
 
  **¿Por qué y para qué se utilizan?**
@@ -25,6 +27,14 @@ Las variables se utilizan para **almacenar datos** que el programa necesita mani
 * **Char**: Para representar un solo carácter.
 * **String**: Para cadenas de texto.
 
- **Conclusión**
+ 
+2. Genere un ejemplo internamente en el recuadro.
 
-Las variables permiten trabajar con datos de forma estructurada y controlada en Kotlin. Al definir correctamente su tipo y saber cuándo utilizar `val` o `var`, se logra un código más claro, seguro y fácil de mantener.
+[LINK DE CÓDIGO](https://pl.kotl.in/h54pJ4pIK)
+
+EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO
+
+Genere el link del audio y el link de GitHub.
+
+[🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/tu-usuario/tu-repo)
+
