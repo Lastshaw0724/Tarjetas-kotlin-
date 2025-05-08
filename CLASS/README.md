@@ -38,18 +38,29 @@ class Persona(
 )
 {
     fun mostrarDatos() {
+    
         println("Nombre: $nombre")
+        
         println("Edad: $edad años")
+        
         println("Altura: $altura metros")
+        
         println("Es estudiante: $esEstudiante")
+        
         println("País: $pais")
+        
         println("Valor de pi: $pi")
     }
     
     fun actualizarDatos(nuevoNombre: String, nuevaEdad: Int) {
+    
         nombre = nuevoNombre
+        
         edad = nuevaEdad
+        
         println("Nuevo nombre: $nombre")
+        
         println("Nueva edad: $edad años")
+        
     }
 }
