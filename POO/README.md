@@ -149,3 +149,5 @@ class Usuario(val nombre: String, var edad: Int) {
     constructor(nombre: String) : this(nombre, 0)  // Constructor secundario
     
 }
+
+}
