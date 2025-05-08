@@ -29,7 +29,7 @@ EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO 
 
 Genere el link del audio y el link de GitHub.
 
-[*LINK DEL AUDIO*](https://tuenlace.com/audio.mp4
+[*LINK DEL AUDIO*](https://github.com/Lastshaw0724/Tarjetas-kotlin-/blob/main/POO/WhatsApp%20Audio%202025-05-07%20at%2010.34.05%20PM.mp4)
 
 [🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/Lastshaw0724/Tarjetas-kotlin-/blob/main/POO/poo.png)
 
