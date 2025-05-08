@@ -22,47 +22,77 @@ Genere el link del audio y el link de GitHub.
 
 Escribe una nota del cómo funciona la estructura
 
-//fun main {
+// Clase principal que demuestra el funcionamiento de los arrays en Kotlin
+class ArrayDemo {
 
-class Persona(
+    // Propiedades de la clase
+    private val colores = arrayOf("rojo", "verde", "azul")
+    private val numeros = arrayOf(1, 2, 3, 4, 5)
+    private val edades = IntArray(3)
+    private val cuadrados = IntArray(5) { i -> i * i }
 
-    var nombre: String,
-    
-    var edad: Int,
-    
-    var altura: Double,
-    
-    var esEstudiante: Boolean,
-    
-    val pais: String,
-    
-    val pi: Float
-)
-{
-    fun mostrarDatos() {
-    
-        println("Nombre: $nombre")
-        
-        println("Edad: $edad años")
-        
-        println("Altura: $altura metros")
-        
-        println("Es estudiante: $esEstudiante")
-        
-        println("País: $pais")
-        
-        println("Valor de pi: $pi")
+    // Método para mostrar arrays básicos
+    fun mostrarArraysBasicos() {
+        println("Array de colores: ${colores.joinToString()}")
+        println("Array de números: ${numeros.joinToString()}")
+        println("Array de edades (valores por defecto): ${edades.joinToString()}")
+        println("Array de cuadrados: ${cuadrados.joinToString()}")
     }
-    
-    fun actualizarDatos(nuevoNombre: String, nuevaEdad: Int) {
-    
-        nombre = nuevoNombre
-        
-        edad = nuevaEdad
-        
-        println("Nuevo nombre: $nombre")
-        
-        println("Nueva edad: $edad años")
-        
+
+    // Método para demostrar acceso y modificación
+    fun accesoYModificacion() {
+        println("\nColor original en posición 1: ${colores[1]}")
+        colores[1] = "amarillo"
+        println("Color modificado en posición 1: ${colores[1]}")
     }
+
+    // Método para recorrer el array
+    fun recorrerArray() {
+        println("\nRecorrido con for-each:")
+        for (color in colores) {
+            println(color)
+        }
+
+        println("\nRecorrido con índices:")
+        for (i in colores.indices) {
+            println("Índice $i: ${colores[i]}")
+        }
+
+        println("\nRecorrido con forEachIndexed:")
+        colores.forEachIndexed { index, valor ->
+            println("[$index] = $valor")
+        }
+    }
+
+    // Método para mostrar el tamaño del array
+    fun mostrarTamaño() {
+        println("\nTamaño del array de colores: ${colores.size}")
+    }
+
+    // Método para demostrar una alternativa flexible: MutableList
+    fun mostrarListaFlexible() {
+        val lista = mutableListOf("uno", "dos")
+        lista.add("tres")
+        println("\nLista mutable (MutableList): $lista")
+    }
+}
+
+// Clase de ejecución
+fun main() {
+    val demo = ArrayDemo()
+
+    println("🔹 MOSTRAR ARRAYS BÁSICOS")
+    demo.mostrarArraysBasicos()
+
+    println("\n🔹 ACCESO Y MODIFICACIÓN")
+    demo.accesoYModificacion()
+
+    println("\n🔹 RECORRER ARRAY")
+    demo.recorrerArray()
+
+    println("\n🔹 TAMAÑO DEL ARRAY")
+    demo.mostrarTamaño()
+
+    println("\n🔹 ALTERNATIVA CON LISTA MUTABLE")
+    demo.mostrarListaFlexible()
 }
