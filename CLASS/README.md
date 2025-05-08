@@ -23,13 +23,20 @@ Escribe una nota del cómo funciona la estructura
 //fun main {
 
 class Persona(
+
     var nombre: String,
+    
     var edad: Int,
+    
     var altura: Double,
+    
     var esEstudiante: Boolean,
+    
     val pais: String,
+    
     val pi: Float
-) {
+)
+{
     fun mostrarDatos() {
         println("Nombre: $nombre")
         println("Edad: $edad años")
