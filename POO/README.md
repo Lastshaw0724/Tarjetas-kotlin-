@@ -21,7 +21,7 @@ La Programación Orientada a Objetos (POO) en Kotlin se utiliza para:
 
 2. Genere un ejemplo internamente en el recuadro.
 
-[LINK DE CÓDIGO](https://pl.kotl.in/bw7CYp9c1)
+[LINK DE CÓDIGO](https://pl.kotl.in/nzXKe3Cyw)
 
 Utilice un editor de código para lograrlo.
 
