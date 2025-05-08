@@ -1,3 +1,5 @@
+1. Describa el por qué y para qué se utiliza.
+
 **ARRAYS EN KOTLIN**
 
  **¿Qué son los arrays?**
@@ -56,10 +58,84 @@ Primer estudiante: Carlos
 Nombre actualizado: Marta
 Total de estudiantes: 3
 
+2. Genere un ejemplo internamente en el recuadro.
 
+[LINK DE CÓDIGO](https://pl.kotl.in/q8JLfKDgT)
 
-**Conclusión**
+Utilice un editor de código para lograrlo.
 
-Los arrays en Kotlin son fundamentales cuando necesitas agrupar y manipular datos homogéneos de forma eficiente. Son ideales en situaciones donde los datos no cambian de tamaño y necesitas acceso rápido a elementos por su posición.
+EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO
 
+Genere el link del audio y el link de GitHub.
+
+[🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/tu-usuario/tu-repo)
+
+Escribe una nota del cómo funciona la estructura
+
+// Ejemplo completo de cómo funcionan los arrays en Kotlin
+
+fun main() {
+
+    // -------------------------------
+    // 🔹 CREACIÓN DE ARRAYS
+    // -------------------------------
+
+    // Usando arrayOf() - para cualquier tipo de datos
+    val numeros = arrayOf(1, 2, 3, 4, 5)
+    val palabras = arrayOf("hola", "mundo")
+
+    // Usando IntArray - para arrays de enteros (valores por defecto: 0)
+    val edades = IntArray(3)  // [0, 0, 0]
+
+    // Usando función de inicialización con índice
+    val cuadrados = IntArray(5) { i -> i * i }  // [0, 1, 4, 9, 16]
+
+    // -------------------------------
+    // 🔹 ACCESO Y MODIFICACIÓN
+    // -------------------------------
+
+    val colores = arrayOf("rojo", "verde", "azul")
+
+    // Acceder a un elemento por índice
+    println("Color en posición 1: ${colores[1]}")  // verde
+
+    // Modificar un elemento por índice
+    colores[1] = "amarillo"
+    println("Nuevo color en posición 1: ${colores[1]}")  // amarillo
+
+    // -------------------------------
+    // 🔹 RECORRER UN ARRAY
+    // -------------------------------
+
+    println("\nRecorrido con for-each:")
+    for (color in colores) {
+        println(color)
+    }
+
+    println("\nRecorrido con índices:")
+    for (i in colores.indices) {
+        println("Índice $i: ${colores[i]}")
+    }
+
+    println("\nRecorrido con forEachIndexed:")
+    colores.forEachIndexed { index, valor ->
+        println("[$index] = $valor")
+    }
+
+    // -------------------------------
+    // 🔹 TAMAÑO DEL ARRAY
+    // -------------------------------
+
+    println("\nEl array de colores tiene ${colores.size} elementos.")
+
+    // -------------------------------
+    // 🔹 LIMITACIONES Y ALTERNATIVA
+    // -------------------------------
+
+    // Los arrays tienen tamaño fijo, no se puede agregar ni eliminar elementos.
+    // Para una estructura más flexible se usa MutableList:
+    val lista = mutableListOf("uno", "dos")
+    lista.add("tres")  // Ahora lista contiene: ["uno", "dos", "tres"]
+    println("\nLista mutable: $lista")
+}
 
