@@ -38,3 +38,68 @@ Genere el link del audio y el link de GitHub.
 
 [🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/Lastshaw0724/Tarjetas-kotlin-/blob/main/VARIABLES/vartyp.png)
 
+Escribe una nota del cómo funciona la estructura
+
+// Clase que demuestra el uso de variables en Kotlin
+class VariablesDemo {
+
+    // Variables inmutables (val) y mutables (var)
+    fun mostrarVariables() {
+        // Variable inmutable (no se puede cambiar su valor)
+        val nombre: String = "Juan"
+        // nombre = "Carlos" // Esto causaría un error porque 'val' no permite cambiar el valor.
+        println("🔹 Nombre: $nombre")
+
+        // Variable mutable (puede cambiar su valor)
+        var edad: Int = 25
+        println("🔹 Edad: $edad")
+
+        // Modificación de la variable mutable
+        edad = 30
+        println("🔹 Edad actualizada: $edad")
+
+        // Variables con inferencia de tipo (Kotlin infiere el tipo automáticamente)
+        val ciudad = "Medellín"  // Kotlin infiere que es un String
+        var altura = 1.75  // Kotlin infiere que es un Double
+
+        println("🔹 Ciudad: $ciudad")
+        println("🔹 Altura: $altura")
+    }
+
+    // Variables de tipos básicos
+    fun tiposBasicos() {
+        // Entero
+        val numeroEntero: Int = 42
+        println("🔹 Número Entero: $numeroEntero")
+
+        // Flotante (Decimal)
+        val numeroDecimal: Double = 3.1416
+        println("🔹 Número Decimal: $numeroDecimal")
+
+        // Booleano
+        val esKotlinGenial: Boolean = true
+        println("🔹 ¿Es Kotlin genial?: $esKotlinGenial")
+
+        // Caracter (Char)
+        val letra: Char = 'K'
+        println("🔹 Letra: $letra")
+
+        // Cadena (String)
+        val saludo: String = "¡Hola, Kotlin!"
+        println("🔹 Saludo: $saludo")
+    }
+
+    // Uso de variables dentro de una función
+    fun ejecutarDemostraciones() {
+        mostrarVariables()
+        tiposBasicos()
+    }
+}
+
+// Función main que ejecuta todas las demostraciones
+fun main() {
+    val demo = VariablesDemo()
+
+    println("=== 🛠️ DEMOSTRACIÓN DE VARIABLES EN KOTLIN ===")
+    demo.ejecutarDemostraciones()
+}
