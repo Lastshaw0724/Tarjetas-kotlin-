@@ -18,6 +18,8 @@ EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO 
 
 Genere el link del audio y el link de GitHub.
 
+[🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/tu-usuario/tu-repo)
+
 Escribe una nota del cómo funciona la estructura
 
 //fun main {
