@@ -37,7 +37,7 @@ EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO 
 
 Genere el link del audio y el link de GitHub.
 
-[*LINK DEL AUDIO*](https://tuenlace.com/audio.mp4)
+[*LINK DEL AUDIO*](https://github.com/Lastshaw0724/Tarjetas-kotlin-/blob/main/CADENA/CADENAS.mp4)
 
 [🔗 LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/Lastshaw0724/Tarjetas-kotlin-/blob/main/CADENA/cadena.png)
 
