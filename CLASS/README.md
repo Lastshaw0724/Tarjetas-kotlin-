@@ -1,5 +1,6 @@
 1.Describa el por qué y para qué se utiliza.
 
+
 ¿Por qué se utiliza?
 
 Las clases en Kotlin se utilizan para representar entidades u objetos del mundo real o lógico dentro de un programa. Permiten organizar y encapsular datos (propiedades) junto con comportamientos (funciones o métodos) en una sola unidad. Esto sigue el principio de la programación orientada a objetos (POO), facilitando la reutilización de código, la modularidad y el mantenimiento del software.
